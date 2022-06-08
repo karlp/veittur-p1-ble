@@ -6,3 +6,6 @@ Nothing else at all really, total BOM is ~$2.  You'll need to add your own RJ12/
 and have BLE range.
 
 intention is to re-use something that already exists in homeassistant protocol wise...
+
+## Sample
+![board-view](board-view1.png)
