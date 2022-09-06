@@ -403,8 +403,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "veittur-p1-ble.step",
+      "vrml": "veittur-p1-ble.wrl"
     },
     "page_layout_descr_file": ""
   },

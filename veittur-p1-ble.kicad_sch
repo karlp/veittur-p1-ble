@@ -1172,7 +1172,6 @@
     )
   )
 
-
   (junction (at 137.16 106.68) (diameter 0) (color 0 0 0 0)
     (uuid 36f9a8b8-037d-4741-97ae-3ea6e48f010b)
   )
@@ -1548,6 +1547,16 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3bffc162-4ef1-4fd7-86d2-2e0d6f0d9b16)
   )
+  (text "FIXME - need to put the led on spi data out\nbitbanging failed hard,\nand the uart doesn't offer inversion.."
+    (at 198.12 71.12 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4cb51574-24e8-4719-b0bf-5259533fb6c7)
+  )
+  (text "YOU FUCKING MORON\nyou've used RXD0 twice!\nyou _can_ keep using this to eval\nthe hardware because we're never \nrx-ing from the user at this stage.."
+    (at 220.98 63.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6f4132ca-6664-4d78-ab20-148ba2705cbb)
+  )
   (text "\"Euro\" \"P1\" port, .nl, .be, .is, etc" (at 30.48 60.96 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8358459b-3d9b-4c31-945f-246ef00279b1)
@@ -1564,6 +1573,11 @@
   (text "Generic PCB InvF, yolo!" (at 231.14 91.44 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f469513e-ee26-4f4c-8954-8b000b81d1b4)
+  )
+  (text "FIXME - bring out reset to a pad for shorting at least, so we can bootloader it?"
+    (at 187.96 144.78 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f6862841-49b2-4563-9e2e-cdedf9cd48ac)
   )
 
   (label "TCK" (at 256.54 134.62 0)
