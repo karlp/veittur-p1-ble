@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Euro P1/HAN to BLE dongle")
+    (date "2022-10-07")
+    (rev "2022-10")
+    (company "Ekta Labs")
+    (comment 1 "Karl Palsson")
+    (comment 2 "false.ekta.is")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (id 0) (at 0 6.858 0)
