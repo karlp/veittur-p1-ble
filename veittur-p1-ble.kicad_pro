@@ -55,7 +55,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|134292500|83890004|6eeb6644-5e56-4418-b38f-60f45e115861|93a9c07c-6462-4168-aec1-b753e1a5f9b4",
+        "clearance|134292500|83890004|9ef5a43c-a57e-446a-92ef-e809599189e3|93a9c07c-6462-4168-aec1-b753e1a5f9b4",
+        "clearance|134442505|81950320|ad5c4805-7c34-4b7e-99b8-3c11695d04ff|a1bb8c39-e13f-4e01-b8b0-5e3df9418092",
+        "courtyards_overlap|133407501|94060001|15c915df-ab4f-4ec9-8ba8-ce66d8cf1bef|266b1532-6a02-4626-8f7e-c284aa7a55d8"
+      ],
       "meta": {
         "version": 2
       },
@@ -121,6 +126,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.4,
         0.6
       ],
       "via_dimensions": [
@@ -356,7 +362,7 @@
       {
         "bus_width": 12.0,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -382,7 +388,8 @@
         "name": "power",
         "nets": [
           "+3V3",
-          "+5V"
+          "+5V",
+          "/vbus"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
