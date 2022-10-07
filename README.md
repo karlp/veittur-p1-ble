@@ -8,4 +8,9 @@ and have BLE range.
 intention is to re-use something that already exists in homeassistant protocol wise...
 
 ## Sample
+### 2022-10 revision
+Adds USB, parts replaced to match JLCPCB production.
+![board-view](board-view2.png)
+
+### Initial revision (conflicting pin definitions, overly simplistic)
 ![board-view](board-view1.png)
